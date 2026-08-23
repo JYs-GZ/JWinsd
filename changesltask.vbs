@@ -1,11 +1,11 @@
 set ws=createobject("wscript.shell")
 ws.run "taskschd.msc"
 WScript.sleep 5500
-ws.AppActivate "任务计划程序"
-ws.AppActivate "任务计划程序"
-ws.AppActivate "任务计划程序"
-ws.AppActivate "任务计划程序"
-ws.AppActivate "任务计划程序"
+ws.AppActivate "浠诲姟璁″垝绋嬪簭"
+ws.AppActivate "浠诲姟璁″垝绋嬪簭"
+ws.AppActivate "浠诲姟璁″垝绋嬪簭"
+ws.AppActivate "浠诲姟璁″垝绋嬪簭"
+ws.AppActivate "浠诲姟璁″垝绋嬪簭"
 WScript.sleep 300
 ws.sendkeys "%a"
 WScript.sleep 300
@@ -23,3 +23,4 @@ ws.sendkeys "jwinsl.xml{ENTER}"
 WScript.sleep 3500
 ws.sendkeys "{TAB}{TAB}{TAB}{TAB}{TAB}"
 ws.sendkeys "{TAB}{TAB}{TAB}{TAB}{RIGHT}"
+'鍦╓indows涓婏紝姝よ剼鏈簲涓篈NSI缂栫爜鎵嶈兘姝ｅ父杩愯锛屾涓篏itHub寮鸿浆涓篣TF-8
